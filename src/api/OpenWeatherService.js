@@ -1,14 +1,15 @@
-const GEO_API_URL = 'https://wft-geo-db.p.rapidapi.com/v1/geo';
+const GEO_API_URL = 'https://wft-geo-db.p.rapidapi.com/v1/geo/adminDivisions';
 
 const WEATHER_API_URL = 'https://api.openweathermap.org/data/2.5';
-const WEATHER_API_KEY = 'b03b479a717cb3bf341811c8dba4f19d';
+const WEATHER_API_KEY = 'f0ea19bd75f15e40ad09f16011f4f4f3';
 
-const GEO_API_OPTIONS = {
-  method: 'GET',
-  headers: {
-    'X-RapidAPI-Key': '4f0dcce84bmshac9e329bd55fd14p17ec6fjsnff18c2e61917',
-    'X-RapidAPI-Host': 'wft-geo-db.p.rapidapi.com',
-  },
+const GEO_API_OPTIONS = 
+{
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': 'ec5fa3c475msha91574127f436dap193680jsn8157d4af32f4',
+		'X-RapidAPI-Host': 'wft-geo-db.p.rapidapi.com'
+	}
 };
 
 export async function fetchWeatherData(lat, lon) {
