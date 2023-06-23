@@ -90,7 +90,7 @@ function App() {
           lineHeight: '22px',
         }}
       >
-        Know your city Weather in way adwance than anyone!....
+        Know your city Weather in way advance than anyone!....
       </Typography>
     </Box>
   );
