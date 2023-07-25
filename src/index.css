@@ -9,7 +9,8 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 100vh;
-  background: linear-gradient(-65deg, #001728 10%, #008d92);
+
+  background: linear-gradient(135deg, #1c5ca5, #1029cb);
 }
 
 code {
